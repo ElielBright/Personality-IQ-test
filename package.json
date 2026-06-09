@@ -1,0 +1,44 @@
+{
+  "name": "personality-iq-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "node server.js",
+    "dev": "start cmd /c \"node server.js\" && start cmd /c \"react-scripts start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^12.14.0",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "react-scripts": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
+    "postcss": "^8.5.15",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-normalize": "^13.0.1",
+    "postcss-preset-env": "^11.3.0"
+  }
+}
